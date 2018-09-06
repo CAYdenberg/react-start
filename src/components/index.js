@@ -12,7 +12,7 @@ function App() {
     <Presentation>
 
       <section>
-        <h1>Why and How to Try React</h1>
+        <h1>Why and How to Start With React</h1>
         <p>by Casey Ydenberg</p>
       </section>
 
