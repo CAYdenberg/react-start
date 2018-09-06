@@ -4,7 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/parcel src/index.html",
+    "build": "./node_modules/.bin/parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -12,6 +14,10 @@
   },
   "author": "@CAYdenberg",
   "license": "MIT",
+  "engines": {
+    "node": ">=9.10.1",
+    "npm": ">=6.1.0"
+  },
   "bugs": {
     "url": "https://github.com/CAYdenberg/react-start/issues"
   },
@@ -19,5 +25,10 @@
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.9.7"
   }
 }
