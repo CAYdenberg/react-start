@@ -27,7 +27,7 @@ function App() {
       </section>
 
       <section>
-        <h2>What does this look like?</h2>
+        <h2>Sure, but how do you do that?</h2>
         <p><a href="https://github.com/CAYdenberg/react-start" target="_blank">https://github.com/CAYdenberg/react-start</a></p>
       </section>
 
