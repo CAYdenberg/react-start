@@ -1,0 +1,15 @@
+
+html {
+  font-size: 28px;
+}
+
+section {
+  padding: 4rem;
+  text-align: center;
+}
+
+.controls {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
