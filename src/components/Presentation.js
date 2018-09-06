@@ -23,12 +23,19 @@ class Presentation extends React.Component {
   }
 
   render() {
+    const children = React.Children.toArray(this.props.children)
+
     return (
       <article className="container content">
 
-        {React.Children.toArray(this.props.children)[this.state.slide]}
+        {children[this.state.slide]}
 
-        <Controls prevSlide={this.prevSlide} nextSlide={this.nextSlide} />
+        <Controls
+          prevSlide={this.prevSlide}
+          nextSlide={this.nextSlide}
+          currentSlide={this.state.slide}
+          totalSlides={children.length}
+        />
       </article>
     )
   }

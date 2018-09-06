@@ -13,3 +13,13 @@ section {
   bottom: 1rem;
   right: 1rem;
 }
+
+.button--prev::before {
+  content: '◀';
+  margin-right: 1em;
+}
+
+.button--next::after {
+  content: '▶';
+  margin-left: 1em;
+}
